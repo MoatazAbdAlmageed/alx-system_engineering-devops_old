@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=ls_cwd_content
+if test -f "$FILE"; then
+	    echo ls -la > $FILE
+    else
+	    touch $FILE
+fi
